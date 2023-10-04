@@ -132,6 +132,7 @@ public class NumberGuesser4 {
             pickNewRandom = true;
         } 
         else {
+            //Nick Malefyt, nrm6, 10/4/23, IT114-003
             System.out.println("That's wrong");
             strikes++;
 
@@ -148,6 +149,7 @@ public class NumberGuesser4 {
                 System.out.println("Your guess is warm");
             }
 
+            //Nick Malefyt, nrm6, 10/4/23, IT114-003
             if(guess > number)
             {
                 System.out.println("Your guess is higher");
